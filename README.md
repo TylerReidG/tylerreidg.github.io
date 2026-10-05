@@ -1,0 +1,16 @@
+# Personal sites (TylerReidG)
+
+Every folder here is a small web page, published free with GitHub Pages from the personal
+GitHub account TylerReidG (repo `TylerReidG/tylerreidg.github.io`). Nothing here is Grizzly.
+
+- `peru-2027/index.html` -> https://tylerreidg.github.io/peru-2027/
+
+## How publishing works
+
+The closet Mac runs `publish.sh` every minute (launchd agent `com.tylerreidg.sites-publish`).
+It commits anything new or changed in this folder and pushes it. GitHub Pages goes live about a
+minute later. So to post a page: drop a new folder with an `index.html` in here, wait ~2 minutes,
+and the link is https://tylerreidg.github.io/<folder-name>/
+
+Pages are public to anyone with the link. Each page carries `noindex` so search engines skip it,
+and the site root shows nothing, so pages aren't listed anywhere.
